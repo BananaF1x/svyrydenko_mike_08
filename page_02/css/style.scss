@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../imgs/back.jpg) fixed;
+}
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 5% 20px;
+    background-color: rgb(63, 63, 63);
+    .section__audio {
+        audio {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+    }
+    .section__video {
+        video {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+    }
+    .section__map {
+        iframe {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+    }
+}
